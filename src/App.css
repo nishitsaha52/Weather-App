@@ -1,0 +1,147 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #212121; /* Default text color */
+  background: linear-gradient(135deg, #4793AF, #FFC470); /* Add your desired gradient here */
+  transition: background-color 0.3s, color 0.3s, background-image 0.3s;
+}
+
+
+a {
+  color: #2196F3; /* Blue */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s, text-decoration 0.3s, transform 0.3s;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
+  color: #F44336; /* Red */
+  transform: scale(1.05);
+}
+
+  
+
+/* Headings */
+h1 {
+  font-family: 'Montserrat', sans-serif; /* Add a Google Font for a modern look */
+  color: wheat;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+  transition: color 0.3s;
+}
+
+
+/* Lists */
+ul {
+  list-style-type: disc;
+  margin-left: 2rem;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif; /* A complementary font for body text */
+  margin-bottom: 1.5rem;
+  color: wheat; /* Default text color */
+  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-weight: bolder;
+  line-height: 1.6;
+}
+
+/* Theme Toggle */
+.theme-section {
+  margin-top: 1.25rem;
+}
+
+/* Dark Theme */
+.dark-theme {
+  background-color: #303030;
+  color: #E0E0E0;
+}
+
+.dark-theme .weather-section {
+  background-color: #424242;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .weather-section:hover {
+  background-color: #616161;
+}
+
+.dark-theme .forecast-day {
+  background-color: #424242;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .forecast-day:hover {
+  background-color: #616161;
+}
+
+.dark-theme .aqi-container {
+  background-color: #424242;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .aqi-container:hover {
+  background-color: #616161;
+}
+
+.dark-theme .history-card {
+  background-color: #424242;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .favorites-card {
+  background-color: #424242;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dark-theme .app-header {
+  background-color: #212121;
+  color: #E0E0E0;
+}
+
+.dark-theme .app-footer {
+  background-color: #212121;
+  color: #E0E0E0;
+}
+
+.dark-theme button {
+  background: linear-gradient(135deg, #2196F3, #F44336); /* Blue to Red gradient */
+  color: #FFEB3B; /* Yellow */
+}
+
+.dark-theme button:hover {
+  background: linear-gradient(135deg, #F44336, #2196F3); /* Red to Blue gradient */
+}
+
+.dark-theme input {
+  background-color: #424242;
+  color: #ccc;
+  border: 2px solid #2196F3; /* Blue */
+}
+
+.dark-theme input:focus {
+  border-color: #F44336; /* Red */
+}
+
+/* Custom Scrollbars */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #303030;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2196F3; /* Blue */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #F44336; /* Red */
+}

@@ -1,0 +1,92 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" fill="none">
+    <!-- Sun -->
+    <circle cx="60" cy="40" r="12" fill="#FFD700">
+      <animateTransform
+        attributeName="transform"
+        type="rotate"
+        from="0 60 40"
+        to="360 60 40"
+        dur="4s"
+        repeatCount="indefinite"
+      />
+    </circle>
+  
+    <!-- Clouds -->
+    <g>
+      <ellipse cx="60" cy="70" rx="20" ry="10" fill="#B0C4DE">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="-10,0; 10,0; -10,0"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+      <ellipse cx="80" cy="70" rx="25" ry="15" fill="#B0C4DE">
+        <animateTransform
+          attributeName="transform"
+          type="translate"
+          values="10,0; -10,0; 10,0"
+          dur="3s"
+          repeatCount="indefinite"
+        />
+      </ellipse>
+    </g>
+  
+    <!-- Raindrops -->
+    <g>
+      <line x1="55" y1="80" x2="55" y2="90" stroke="#00AFFF" stroke-width="2">
+        <animate
+          attributeName="y2"
+          from="80"
+          to="100"
+          dur="1.2s"
+          repeatCount="indefinite"
+        />
+        <animate
+          attributeName="opacity"
+          from="1"
+          to="0"
+          dur="1.2s"
+          repeatCount="indefinite"
+        />
+      </line>
+      <line x1="65" y1="80" x2="65" y2="90" stroke="#00AFFF" stroke-width="2">
+        <animate
+          attributeName="y2"
+          from="80"
+          to="100"
+          dur="1.2s"
+          repeatCount="indefinite"
+          begin="0.4s"
+        />
+        <animate
+          attributeName="opacity"
+          from="1"
+          to="0"
+          dur="1.2s"
+          repeatCount="indefinite"
+          begin="0.4s"
+        />
+      </line>
+      <line x1="75" y1="80" x2="75" y2="90" stroke="#00AFFF" stroke-width="2">
+        <animate
+          attributeName="y2"
+          from="80"
+          to="100"
+          dur="1.2s"
+          repeatCount="indefinite"
+          begin="0.8s"
+        />
+        <animate
+          attributeName="opacity"
+          from="1"
+          to="0"
+          dur="1.2s"
+          repeatCount="indefinite"
+          begin="0.8s"
+        />
+      </line>
+    </g>
+  </svg>
+  

@@ -1,0 +1,71 @@
+/* Search Container */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 200%; /* Adjusted width to fit container */
+  margin-right: 10px;
+  padding: 10px;
+  background-color: transparent;
+  justify-content: center;
+  position: relative; /* Ensure suggestions list is positioned correctly */
+}
+
+/* Input Field */
+.search-container input {
+  padding: 8px;
+  margin-right: 10px;
+  width: 100%;
+  max-width: 600px; /* Adjusted maximum width */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Buttons */
+.search-container button {
+  background: #536493; /* Slate Blue */
+  border: none;
+  font-size: 18px; /* Adjusted font size */
+  color: white;
+  padding: 10px 15px; /* Adjusted padding */
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative; /* Avoid overlapping issues */
+}
+
+.search-container button:hover {
+  background-color: #4a5a6d; /* Slightly darker shade on hover */
+}
+
+.search-container button:active {
+  background-color: #3d4a5b; /* Even darker shade on click */
+}
+
+/* Suggestions List */
+.suggestions-list {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  max-height: 200px;
+  overflow-y: auto;
+  width: 100%;
+  max-width: 600px;  
+  z-index: 1000;
+  top: 100%; /* Position directly below the input */
+  right: 700px;
+  margin-top: 1px; /* Optional: Add a small margin to separate from input */
+}
+
+/* Suggestion Items */
+.suggestion-item {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.suggestion-item:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,97 @@
+/* AQI Container */
+.aqi-container {
+  background: linear-gradient(145deg, #6DC5D1, #3A7D9A); /* Gradient background */
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  width: 97%;
+  margin: 0 auto;
+}
+
+.aqi-icon {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* AQI Info */
+.aqi-info {
+  border-radius: 15px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.aqi-info h1 {
+  margin-right: 0.5rem;
+  font-size: 5rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.aqi-info h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+}
+
+.aqi-info p {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Grid Layout for AQI Components */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 1rem;
+}
+
+.grid-item {
+  background: #FFFFFF; /* White background for each item */
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+.aqi-container:hover{
+  background: linear-gradient(145deg, #3A7D9A, #6DC5D1); /* Gradient background */
+}
+
+/* Icons inside grid items */
+.grid-item p {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+
+.grid-item p svg {
+  margin-right: 0.5rem;
+}
+
+/* styles/Toastify.css */
+.custom-toast-container .Toastify__toast-container {
+  width: 400px; /* Adjust the width as needed */
+}

@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Macondo&family=Matemasie&family=Merienda:wght@300..900&family=Pacifico&display=swap');
+
+/* Container for the card sections */
+.weather-section {
+  background: linear-gradient(145deg, #6DC5D1, #3A7D9A); /* Gradient background */
+  border-radius: 15px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1.5rem;
+}
+
+.favhis-icon {
+  margin-right: 0.5rem;
+  font-size: 2rem;
+  animation: bounce 1.5s infinite;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Card Styling */
+.favorites-card, .history-card {
+  background: #FFFFFF; /* White background for cards */
+  font-family: 'Merienda', cursive;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s, transform 0.3s;
+}
+
+/* Hover effect for cards */
+.favorites-card:hover, .history-card:hover {
+  background: #FDE49E; /* Light Yellow */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Card Header */
+.weather-section h2 {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #DD761C; /* Dark Orange */
+}
+
+.weather-section h2 svg {
+  margin-right: 0.5rem;
+  font-size: 1.8rem;
+}
+
+/* Card Titles */
+.favorites-card h3, .history-card h3 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333; /* Dark Gray */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .weather-section {
+    padding: 1rem;
+  }
+
+  .weather-section h2 {
+    font-size: 1.2rem;
+  }
+
+  .weather-section h2 svg {
+    font-size: 1.5rem;
+  }
+
+  .favorites-card h3, .history-card h3 {
+    font-size: 1rem;
+  }
+}

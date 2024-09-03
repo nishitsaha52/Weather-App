@@ -1,0 +1,25 @@
+.card {
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    align-items: center;
+  }
+  
+  .card-icon {
+    width: 25px;
+    height: 25px;
+    font-size: 2rem;
+    margin-right: 1rem;
+  }
+  
+  .card-content h3 {
+    margin: 0;
+    font-size: 2rem;
+    color: wheat; /* Dark Orange */
+  }
+  
+  .card-content p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  

@@ -1,0 +1,64 @@
+<svg width="300" height="100" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg">
+    <!-- Sun -->
+    <circle cx="50" cy="50" r="20" fill="#FEB941">
+      <animate attributeName="r" values="20;25;20" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <g stroke="#FEB941" stroke-width="4">
+      <line x1="50" y1="10" x2="50" y2="0">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="50" y1="90" x2="50" y2="100">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="10" y1="50" x2="0" y2="50">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="90" y1="50" x2="100" y2="50">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="15" y1="15" x2="5" y2="5">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="85" y1="15" x2="95" y2="5">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="85" y1="85" x2="95" y2="95">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+      <line x1="15" y1="85" x2="5" y2="95">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="6s" repeatCount="indefinite" />
+      </line>
+    </g>
+  
+    <!-- Cloud -->
+    <g fill="#6DC5D1">
+      <ellipse cx="180" cy="60" rx="30" ry="20">
+        <animate attributeName="cx" values="180;170;180" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="220" cy="60" rx="20" ry="15">
+        <animate attributeName="cx" values="220;210;220" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+      <ellipse cx="150" cy="65" rx="20" ry="15">
+        <animate attributeName="cx" values="150;140;150" dur="4s" repeatCount="indefinite" />
+      </ellipse>
+    </g>
+  
+    <!-- Raindrops -->
+    <g fill="#EF5A6F">
+      <line x1="175" y1="75" x2="175" y2="90" stroke="#EF5A6F" stroke-width="2">
+        <animate attributeName="y1" values="75;90" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="90;100" dur="1s" repeatCount="indefinite" />
+      </line>
+      <line x1="205" y1="75" x2="205" y2="90" stroke="#EF5A6F" stroke-width="2">
+        <animate attributeName="y1" values="75;90" dur="1s" repeatCount="indefinite" />
+        <animate attributeName="y2" values="90;100" dur="1s" repeatCount="indefinite" />
+      </line>
+    </g>
+  
+    <!-- Text -->
+    <text x="100" y="35" font-family="Merienda, sans-serif" font-size="30" fill="#536493">WeatherWise</text>
+    <text x="100" y="35" font-family="Merienda, sans-serif" font-size="30" fill="none" stroke="#EF5A6F" stroke-width="0.5">
+      <animate attributeName="stroke-dasharray" from="0,200" to="200,0" dur="3s" repeatCount="indefinite" />
+    </text>
+  </svg>
+  

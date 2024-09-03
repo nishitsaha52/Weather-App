@@ -1,0 +1,149 @@
+.contact-us {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between the containers */
+}
+
+.contact-msg,
+.contact-form {
+  flex: 1;
+  min-width: 300px; /* Minimum width for each container */
+  box-sizing: border-box;
+}
+
+.contact-msg {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-us-title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-us-intro {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.contact-info {
+  margin-bottom: 30px;
+}
+
+.contact-info-item {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-bottom: 30px;
+}
+
+.social-links-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.social-links-list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.social-links-list li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+
+.social-link:hover {
+  color: #007bff;
+}
+
+.contact-form {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-form-label {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.contact-form-input,
+.contact-form-textarea {
+  width: 97%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form-button:hover {
+  background-color: #0056b3;
+}
+
+.is-invalid {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  margin-top: -10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.success-message {
+  color: green;
+  margin-top: 15px;
+  font-size: 1rem;
+  text-align: center;
+}
