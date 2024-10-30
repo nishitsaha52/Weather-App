@@ -32,7 +32,7 @@ const Weather = () => {
   const [isListening, setIsListening] = useState(false);
   const [aqiData, setAqiData] = useState(null);
 
-  const API_KEY = "b5e9294461820eb134103b5f6ca134f9"; // Use environment variable for API key
+  const API_KEY = process.env.REACT_APP_API_KEY;
 
   useEffect(() => {
     navigator.geolocation.getCurrentPosition(
