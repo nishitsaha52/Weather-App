@@ -1,7 +1,3 @@
-Here's a README for your weather app:
-
----
-
 # Weather App
 
 ## Overview
@@ -11,9 +7,9 @@ The Weather App is a user-friendly application designed to provide accurate and 
 ## Key Features
 
 ### 1. Geolocation & Weather Data Fetching
-- **Automatic Location Detection:** Utilizes the browser's geolocation API to determine the user's current location and fetch corresponding weather data.
+- **Automatic Location Detection:** Utilises the browser's geolocation API to determine the user's current location and fetch corresponding weather data.
 - **City-Based Search:** Allows users to search for weather data by city name or geographic coordinates.
-- **Air Quality Index (AQI):** Retrieves and displays AQI data with color-coded backgrounds to indicate air quality levels.
+- **Air Quality Index (AQI):** Retrieves and displays AQI data with colour-coded backgrounds to indicate air quality levels.
 
 ### 2. Voice Search
 - **Speech Recognition:** Integrates speech recognition technology for voice-activated city searches, making it easy to get weather updates hands-free.
@@ -22,7 +18,7 @@ The Weather App is a user-friendly application designed to provide accurate and 
 - **Celsius/Fahrenheit:** Users can switch between Celsius and Fahrenheit units for temperature display, catering to global preferences.
 
 ### 4. Favourite Cities
-- **Quick Access:** Users can save frequently checked cities to a list of favorites and quickly retrieve weather data for them.
+- **Quick Access:** Users can save frequently checked cities to a list of favourites and quickly retrieve weather data for them.
 
 ### 5. Search History
 - **Recent Searches:** Keeps track of the last 10 searches, allowing users to revisit previous queries easily.
@@ -51,7 +47,7 @@ To install and run the Weather App locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/weather-app.git
+   git clone https://github.com/nishitsaha52/weather-app.git
    ```
 
 2. Navigate to the project directory:
@@ -70,9 +66,5 @@ To install and run the Weather App locally, follow these steps:
    ```
 
 5. Open your browser and visit `http://localhost:3000` to view the app.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any bugs, features, or improvements.
 ---
 
